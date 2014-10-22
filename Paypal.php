@@ -1,5 +1,7 @@
 <?php
 
+    namespace BaBeuloula;
+
     class Paypal {
 
         private $user = "YOUR_PAYPAL_USER";

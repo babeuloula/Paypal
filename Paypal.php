@@ -45,7 +45,8 @@
                 CURLOPT_RETURNTRANSFER => 1,
                 CURLOPT_SSL_VERIFYPEER => false,
                 CURLOPT_SSL_VERIFYHOST => false,
-                CURLOPT_VERBOSE        => 1
+                CURLOPT_VERBOSE        => 1,
+                CURLOPT_SSLVERSION     => CURL_SSLVERSION_TLSv1_2,
             ));
 
             $response = curl_exec($curl);
